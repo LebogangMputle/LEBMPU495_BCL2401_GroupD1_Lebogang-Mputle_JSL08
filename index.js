@@ -42,9 +42,15 @@ class BankBranch {
 constructor(branchInfo) { 
 // Check if the instance already exists; if yes, return it; otherwise, create a new instance 
 if (!bankBranchInstance) { 
-this.branchInfo = branchInfo;
-bankBranchInstance = this;  
+    this.branchInfo = branchInfo;
+    bankBranchInstance = this;  
 }
 return bankBranchInstance;
 }
 }
+
+// Define methods to manage branch information
+function getBranchInfo() {
+    return this.branchInfo;
+}
+
