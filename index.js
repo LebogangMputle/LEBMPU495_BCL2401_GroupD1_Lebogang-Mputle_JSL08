@@ -62,4 +62,4 @@ console.log(branchA.getBranchInfo()); // Outputs: Main Street Branch
 const branchB = new BankBranch("Second Street Branch");
  
 console.log(branchB.getBranchInfo()); // Still outputs: Main Street Branch, because it's a singleton
-console.log(branchA === branchB); // true, both variables point to the same instance
+console.log(branchA === branchB); // true, both variables point to the same instance.
